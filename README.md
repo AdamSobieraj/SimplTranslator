@@ -1,10 +1,10 @@
 # SimplTranslator
 Program to translate words basing on dictionary file
 
-#Java Versions
+# Java Version
 Java 8 or above is required for using this program.
 
-#Getting Started
+# Getting Started
 
 Prerequisites
 
