@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "66cefb15-bf14-455a-b68b-96c5423c29f4",
+		"name": "Translator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/v1/trans/transpltoen/a cat fight fight has/false",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/trans/transpltoen/a cat fight fight has/false",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"trans",
+						"transpltoen",
+						"a cat fight fight has",
+						"false"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/trans/transpltoen/a cat fight fight has/true",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/trans/transpltoen/a cat fight fight has/true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"trans",
+						"transpltoen",
+						"a cat fight fight has",
+						"true"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/trans/getelementcount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/trans/getelementcount",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"trans",
+						"getelementcount"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/trans/transentopl/kota walcz walcz ma/false",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/trans/transentopl/kota walcz walcz ma/false",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"trans",
+						"transentopl",
+						"kota walcz walcz ma",
+						"false"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/trans/transentopl/kota walcz ma/false",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/trans/transentopl/kota walcz ma/false",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"trans",
+						"transentopl",
+						"kota walcz ma",
+						"false"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/trans/transpltoen/a cat fight fight has/false",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/trans/transpltoen/a cat fight fight has/false",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"trans",
+						"transpltoen",
+						"a cat fight fight has",
+						"false"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/trans/transpltoen/a cat fight fight has/true",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/trans/transpltoen/a cat fight fight has/true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"trans",
+						"transpltoen",
+						"a cat fight fight has",
+						"true"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/trans/transentopl/kota walcz ma/true",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/trans/transentopl/kota walcz ma/true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"trans",
+						"transentopl",
+						"kota walcz ma",
+						"true"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
