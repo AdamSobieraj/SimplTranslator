@@ -26,6 +26,7 @@ public class JsonToMapConverter {
 
         try {
             jsonMap = new ObjectMapper().readValue(getLocalJsonLocalFile, HashMap.class);
+            getLocalJsonLocalFile.close();
         }catch (IOException e){
             System.out.println("Błąd przemapowania pliku JSON do HashMap : " + e);
         }

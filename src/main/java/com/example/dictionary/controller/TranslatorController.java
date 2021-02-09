@@ -32,14 +32,14 @@ public class TranslatorController {
         this.wordInTextCounter = wordInTextCounter;
     }
 
-    @RequestMapping(method = RequestMethod.GET, value = "/transentopl/{worden}/{inquotes}")
+    @RequestMapping(method = RequestMethod.PUT, value = "/transentopl/{worden}/{inquotes}")
     public String getEnToPlTrans(@PathVariable String worden, @PathVariable Boolean inquotes){
         Map<String, String> dictionary;
         dictionary = jsonToMapConverter.parseJsonFileToHashMap();
         return translateSimple.translatedSimpleText(worden, dictionary, inquotes);
     }
 
-    @RequestMapping(method = RequestMethod.GET, value = "transpltoen/{wordpl}/{inquotes}")
+    @RequestMapping(method = RequestMethod.PUT, value = "transpltoen/{wordpl}/{inquotes}")
     public String getPlToEnTrans(@PathVariable String wordpl, @PathVariable Boolean inquotes){
         Map<String, String> dictionary;
         dictionary = jsonToMapConverter.parseJsonFileToHashMap();

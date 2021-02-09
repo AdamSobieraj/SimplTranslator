@@ -10,7 +10,7 @@ public class TranslateSimple {
     private List<String> wordListFromTranslation = new ArrayList<String>();
 
     public String translatedSimpleText(String translate, Map<String, String> dictionary, Boolean inQuotes){
-        wordListFromTranslation.clear();
+//        wordListFromTranslation.clear();
         String wordSeparator = inQuotes ? "\"" : "";
 
         StringBuilder result = new StringBuilder();
